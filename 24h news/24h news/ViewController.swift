@@ -12,6 +12,18 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var webView: UIWebView!
     
+    @IBAction func forwardButton(sender: AnyObject) {
+        webView.goBack()
+    }
+    
+    @IBAction func reloadButton(sender: AnyObject) {
+        webView.reload()
+    }
+    @IBOutlet weak var goButton: UIButton!
+    
+    @IBAction func goBtn(sender: AnyObject) {
+        webView.goForward()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

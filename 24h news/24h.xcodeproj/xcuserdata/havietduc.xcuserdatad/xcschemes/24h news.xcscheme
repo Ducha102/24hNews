@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53B1846A1E024A4F0091BCD1"
-               BuildableName = "24h news.app"
-               BlueprintName = "24h news"
-               ReferencedContainer = "container:24h news.xcodeproj">
+               BuildableName = "24h.app"
+               BlueprintName = "24h"
+               ReferencedContainer = "container:24h.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53B1846A1E024A4F0091BCD1"
-            BuildableName = "24h news.app"
-            BlueprintName = "24h news"
-            ReferencedContainer = "container:24h news.xcodeproj">
+            BuildableName = "24h.app"
+            BlueprintName = "24h"
+            ReferencedContainer = "container:24h.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53B1846A1E024A4F0091BCD1"
-            BuildableName = "24h news.app"
-            BlueprintName = "24h news"
-            ReferencedContainer = "container:24h news.xcodeproj">
+            BuildableName = "24h.app"
+            BlueprintName = "24h"
+            ReferencedContainer = "container:24h.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53B1846A1E024A4F0091BCD1"
-            BuildableName = "24h news.app"
-            BlueprintName = "24h news"
-            ReferencedContainer = "container:24h news.xcodeproj">
+            BuildableName = "24h.app"
+            BlueprintName = "24h"
+            ReferencedContainer = "container:24h.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

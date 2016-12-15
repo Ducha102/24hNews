@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		537F77611E029562003EE576 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537F77601E029562003EE576 /* Image.xcassets */; };
+		537F77661E0295B0003EE576 /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 537F77651E0295B0003EE576 /* 24.png */; };
+		537F77681E0298A7003EE576 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F77671E0298A7003EE576 /* ExternalAccessory.framework */; };
 		53B1846F1E024A4F0091BCD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1846E1E024A4F0091BCD1 /* AppDelegate.swift */; };
 		53B184711E024A4F0091BCD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B184701E024A4F0091BCD1 /* ViewController.swift */; };
 		53B184741E024A4F0091BCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B184721E024A4F0091BCD1 /* Main.storyboard */; };
@@ -15,7 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53B1846B1E024A4F0091BCD1 /* 24h news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24h news.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		537F77601E029562003EE576 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		537F77651E0295B0003EE576 /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24.png; sourceTree = "<group>"; };
+		537F77671E0298A7003EE576 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		537F77691E0298A7003EE576 /* 24h news.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "24h news.entitlements"; sourceTree = "<group>"; };
+		53B1846B1E024A4F0091BCD1 /* 24h.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24h.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B1846E1E024A4F0091BCD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53B184701E024A4F0091BCD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53B184731E024A4F0091BCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,15 +36,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537F77681E0298A7003EE576 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		537F77641E02958E003EE576 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				537F77651E0295B0003EE576 /* 24.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		53B184621E024A4F0091BCD1 = {
 			isa = PBXGroup;
 			children = (
+				537F77671E0298A7003EE576 /* ExternalAccessory.framework */,
 				53B1846D1E024A4F0091BCD1 /* 24h news */,
 				53B1846C1E024A4F0091BCD1 /* Products */,
 			);
@@ -46,7 +63,7 @@
 		53B1846C1E024A4F0091BCD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53B1846B1E024A4F0091BCD1 /* 24h news.app */,
+				53B1846B1E024A4F0091BCD1 /* 24h.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +71,15 @@
 		53B1846D1E024A4F0091BCD1 /* 24h news */ = {
 			isa = PBXGroup;
 			children = (
+				537F77691E0298A7003EE576 /* 24h news.entitlements */,
+				537F77641E02958E003EE576 /* Image */,
 				53B1846E1E024A4F0091BCD1 /* AppDelegate.swift */,
 				53B184701E024A4F0091BCD1 /* ViewController.swift */,
 				53B184721E024A4F0091BCD1 /* Main.storyboard */,
 				53B184751E024A4F0091BCD1 /* Assets.xcassets */,
 				53B184771E024A4F0091BCD1 /* LaunchScreen.storyboard */,
 				53B1847A1E024A4F0091BCD1 /* Info.plist */,
+				537F77601E029562003EE576 /* Image.xcassets */,
 			);
 			path = "24h news";
 			sourceTree = "<group>";
@@ -67,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53B1846A1E024A4F0091BCD1 /* 24h news */ = {
+		53B1846A1E024A4F0091BCD1 /* 24h */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53B1847D1E024A4F0091BCD1 /* Build configuration list for PBXNativeTarget "24h news" */;
+			buildConfigurationList = 53B1847D1E024A4F0091BCD1 /* Build configuration list for PBXNativeTarget "24h" */;
 			buildPhases = (
 				53B184671E024A4F0091BCD1 /* Sources */,
 				53B184681E024A4F0091BCD1 /* Frameworks */,
@@ -79,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = "24h news";
+			name = 24h;
 			productName = "24h news";
-			productReference = 53B1846B1E024A4F0091BCD1 /* 24h news.app */;
+			productReference = 53B1846B1E024A4F0091BCD1 /* 24h.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +116,16 @@
 				TargetAttributes = {
 					53B1846A1E024A4F0091BCD1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LF26QRRFLW;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 53B184661E024A4F0091BCD1 /* Build configuration list for PBXProject "24h news" */;
+			buildConfigurationList = 53B184661E024A4F0091BCD1 /* Build configuration list for PBXProject "24h" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53B1846A1E024A4F0091BCD1 /* 24h news */,
+				53B1846A1E024A4F0091BCD1 /* 24h */,
 			);
 		};
 /* End PBXProject section */
@@ -122,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537F77661E0295B0003EE576 /* 24.png in Resources */,
 				53B184791E024A4F0091BCD1 /* LaunchScreen.storyboard in Resources */,
+				537F77611E029562003EE576 /* Image.xcassets in Resources */,
 				53B184761E024A4F0091BCD1 /* Assets.xcassets in Resources */,
 				53B184741E024A4F0091BCD1 /* Main.storyboard in Resources */,
 			);
@@ -249,11 +277,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "24h news/24h news.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "24h news/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duchaviet.-4h-news";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 24h;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -261,18 +293,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "24h news/24h news.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "24h news/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duchaviet.-4h-news";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 24h;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53B184661E024A4F0091BCD1 /* Build configuration list for PBXProject "24h news" */ = {
+		53B184661E024A4F0091BCD1 /* Build configuration list for PBXProject "24h" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53B1847B1E024A4F0091BCD1 /* Debug */,
@@ -281,13 +317,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53B1847D1E024A4F0091BCD1 /* Build configuration list for PBXNativeTarget "24h news" */ = {
+		53B1847D1E024A4F0091BCD1 /* Build configuration list for PBXNativeTarget "24h" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53B1847E1E024A4F0091BCD1 /* Debug */,
 				53B1847F1E024A4F0091BCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
